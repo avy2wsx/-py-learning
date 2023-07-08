@@ -9,9 +9,9 @@ target = random.randint(min,max)
 #print(target)
 
 while True:
-    K =int(input(f"猜數字範圍{min}~{max}:"))
+    keyin =int(input(f"猜數字範圍{min}~{max}:"))
     count +=1
-    if(k == target):
+    if(keyin == target):
         print(f"Bingo,answer is {target}")
         print(f"總共猜了{count}次")
         break
