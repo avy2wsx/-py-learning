@@ -28,6 +28,6 @@ def playgame() :
 while(True):
     playgame()
     play_again = input("還要玩嗎?(y,n)")
-    if not (play_again == y):
+    if not (play_again == "y"):
         break
 print("game over")
