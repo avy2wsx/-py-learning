@@ -6,12 +6,12 @@ min = 1
 max = 10
 count = 0
 target = random.randint(min,max)
-print(target)
+#print(target)
 
 while True:
-    Keyin =int(input(f"猜數字範圍{min}~{max}:"))
+    K =int(input(f"猜數字範圍{min}~{max}:"))
     count +=1
-    if(keyin ==target):
+    if(k == target):
         print(f"Bingo,answer is {target}")
         print(f"總共猜了{count}次")
         break
