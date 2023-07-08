@@ -24,8 +24,6 @@ def playgame() :
             min = keyin + 1
         print(f"您已經猜了{count}次")
 
-playgame()
-print("game over")
 
 while(True):
     playgame()
