@@ -23,3 +23,4 @@ https://youtube.com/live/ajU_bMfGYvE
 
 0729-建環境
 L11-1:matplotlib
+https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html
